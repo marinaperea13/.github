@@ -1,5 +1,15 @@
 ## Hi there 👋
 
+Welcome to the homepage of the TAL.IA project!
+
+Go and take a look at some of our work:
+- [Video augmentation in Python](https://github.com/RodGal-2020/video_augmentation).
+- [Bla bla bla](https://example.com/)
+- [Bla bla bla](https://example.com/)
+- [Bla bla bla](https://example.com/)
+
+Profile README under development...
+
 **Here are some ideas to get you started:**
 
 - 🙋‍♀️ A short introduction - what is your organization all about?
