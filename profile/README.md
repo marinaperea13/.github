@@ -1,3 +1,4 @@
+# TAL.IA: TrAducción de la Lengua de signos mediante Inteligencia Artificial
 ## Hi there 👋
 
 Welcome to the homepage of the TAL.IA project!
@@ -8,7 +9,11 @@ Take a look at some of our work:
 - [Bla bla bla](https://example.com/)
 - [Bla bla bla](https://example.com/)
 
-Profile README under development...
+## Status
+Profile README under development, repositories included...
+
+<img src="work_in_progress.png" alt="Work in progress" width="50%">
+
 
 **Here are some ideas to get you started:**
 
