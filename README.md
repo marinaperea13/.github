@@ -1,2 +1,2 @@
 # .github
-This is the description of the `.github` repository.
+Go [here](https://github.com/TAL-IA) to see the homepage of the project, generated from the `profile/` folder.
