@@ -1,4 +1,17 @@
 # TAL.IA: TrAducción de la Lengua de signos mediante Inteligencia Artificial
+
+## Explicacion del objetivo del codigo (data augmentation + DeepFakes) 
+
+## Origen y obtención de los vídeos (enlace a SACU)
+
+## Pequeña tabla con resultados de subconjuntos (entrenamiento con datos originales, datos sinteticos, datos originales+sinteticos)
+
+## Trabajo relacionado
+
+## Líneas de trabajo futuras
+
+## Líneas de trabajo descartadas
+
 ## Hi there 👋
 
 Welcome to the homepage of the TAL.IA project!
