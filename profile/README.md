@@ -1,28 +1,26 @@
 # TAL.IA: TrAducción de la Lengua de signos mediante Inteligencia Artificial
 
+TAL.IA es un proyecto que *lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum venenatis mollis pulvinar. Pellentesque non augue vitae lorem iaculis varius. Donec cursus leo eu orci ornare, vitae tristique neque tristique. Sed vitae felis pulvinar, faucibus tortor at, ullamcorper nisi. Sed ut ipsum in dolor mattis molestie. Sed non tortor vel erat convallis condimentum. Nam placerat ultricies enim id sollicitudin. Phasellus volutpat quam et facilisis mollis. Donec eleifend mi vel tempor tempor. Proin a rutrum turpis, id laoreet ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus.*
+
 ## Estado del proyecto
 - README en desarrollo, pero ya con algo de contenido que mostrar.
 - Repositorios auxiliares prácticamente vacíos.
 
-**Here are some ideas to get you started:**
+## Objetivos
 
-- 🙋‍♀️ A short introduction - what is your organization all about?
-- 🌈 Contribution guidelines - how can the community get involved?
-- 👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-- 🍿 Fun facts - what does your team eat for breakfast?
-- 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
-## Explicacion del objetivo del código (data augmentation + DeepFakes) 
+Las dos principales herramientas en las que hemos centrado nuestra atención son la expansión de datos (*data augmentation*) y los *deepfakes*, transformaciones que actualmente están cambiando el campo de la Inteligencia Artificial, y que pretendemos usar emplear en el caso del Reconocimiento del Lenguaje de Signos (SLR).
 
 Referencias:
 * [*Data augmentation*](https://tal-ia.github.io/data_augmentation/)
 * [*DeepFakes*](https://tal-ia.github.io/deepfakes/)
 
-## Origen y obtención de los vídeos (enlace a SACU)
+## El conjunto de datos SACU
+
+TODO: Origen y obtención.
 
 * [Glosario en Lengua de Signos Española](https://sacu.us.es/spp-prestaciones-discapacidad-glosario-pintura).
 
-## Pequeña tabla con resultados de subconjuntos (entrenamiento con datos originales, datos sinteticos, datos originales+sinteticos)
+## Resultados obtenidos
 
 ### SACU-I3D-10
 
@@ -54,3 +52,7 @@ $$T_2 = ("aff", "bsalt", "mblur", "dsample-0.2")$$
 ## Líneas de trabajo futuras
 
 ## Líneas de trabajo descartadas
+
+- Traducción del Lenguaje de Signos (SLT).
+
+
