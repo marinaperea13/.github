@@ -2,9 +2,10 @@
 
 TAL.IA es un proyecto que *lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum venenatis mollis pulvinar. Pellentesque non augue vitae lorem iaculis varius. Donec cursus leo eu orci ornare, vitae tristique neque tristique. Sed vitae felis pulvinar, faucibus tortor at, ullamcorper nisi. Sed ut ipsum in dolor mattis molestie. Sed non tortor vel erat convallis condimentum. Nam placerat ultricies enim id sollicitudin. Phasellus volutpat quam et facilisis mollis. Donec eleifend mi vel tempor tempor. Proin a rutrum turpis, id laoreet ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus.*
 
-## Estado del proyecto
+## Sobre este documento
 - README en desarrollo, pero ya con algo de contenido que mostrar.
 - Repositorios auxiliares prácticamente vacíos.
+  - Pero con estilo.
 
 ## Objetivos
 
