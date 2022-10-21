@@ -15,8 +15,8 @@
 ## Explicacion del objetivo del código (data augmentation + DeepFakes) 
 
 Referencias:
-* [*Data augmentation*](https://github.com/TAL-IA/data_augmentation)
-* [*DeepFakes*](https://github.com/TAL-IA/deepfakes)
+* [*Data augmentation*](https://tal-ia.github.io/data_augmentation/)
+* [*DeepFakes*](https://tal-ia.github.io/deepfakes/)
 
 ## Origen y obtención de los vídeos (enlace a SACU)
 
