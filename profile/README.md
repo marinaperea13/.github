@@ -17,9 +17,15 @@ Referencias:
 
 ## El conjunto de datos SACU
 
-TODO: Origen y obtención.
+TODO: Origen, obtención, procesamiento con MediaPipe.
 
-* [Glosario en Lengua de Signos Española](https://sacu.us.es/spp-prestaciones-discapacidad-glosario-pintura).
+* [Glosario en Lengua de Signos Española](https://sacu.us.es/ne-prestaciones-discapacidad-glosario).
+
+Originales:
+<p align='center'><img src='gif/sinprocesar_Algebra.gif' width='30%'><br><sup>Vídeo original para la palabra "Álgebra".</sup><br></p>
+
+Tras el procesamiento:
+<p align='center'><img src='gif/original_Algebra.gif' width='30%'><br><sup>Vídeo procesado para la palabra "Álgebra".</sup><br></p>
 
 ## Resultados obtenidos
 
