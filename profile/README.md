@@ -38,6 +38,7 @@ Para poder poner a prueba nuestra hipótesis —la utilidad de la expansión de 
 Usamos $S$ para denotar al conjunto de los 10 vídeos originales con los que trabajamos —$S_{I}$ representará a los signantes identificados por $I$ de $S$—, $T_1$ y $T_2$ para las transformaciones, $DF$ para los *DeepFakes*, y D para el conjunto test, formado por 8 vídeos del diccionario Dilse:
 
 $$T_1 = ('aff', 'apepper', 'blur', 'usample-0.1')$$
+
 $$T_2 = ('aff', 'bsalt', 'mblur', 'dsample-0.2')$$
 
 | ID | Épocas | Clases | Entrenamiento | #Entrenamiento | Test | Precisión | Notas |
