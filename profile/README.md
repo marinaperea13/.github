@@ -28,7 +28,7 @@ Tras el procesamiento:
 <p align='center'><img src='gif/original_Algebra.gif' width='40%'><br><sup>Vídeo procesado para la palabra "Álgebra".</sup><br></p>
 
 Muestra del recorte basado en [MediaPipe](https://mediapipe.dev/):
-<p align='center'><img src='gif/MP_Algebra.gif' width='40%'><br><sup>Vídeo procesado para la palabra "Álgebra".</sup><br></p>
+<p align='center'><img src='gif/MP_Algebra.gif' width='40%'><br><sup>Estimación de la *pose* con MediaPipe.</sup><br></p>
 
 ## Resultados obtenidos
 
