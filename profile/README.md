@@ -36,8 +36,8 @@ $$T_2 = ("aff", "bsalt", "mblur", "dsample-0.2")$$
 
 | ID | Épocas | Clases | Entrenamiento | #Entrenamiento | Test | Precisión | Notas |
 |:-:|:-:|:------:|:-------------:|:----:|:----:|:---------:|:-----:|
-| 10-02 | 52 |  8     | $T_1(S) + T_2(S)$ | 30 | D | 0.125 | Empezaba con 0.25, pero al poco se redujo |
-| 10-03 | 60 | 8 | $S + T_1(S) + T_2(S)$ | 45 | D | 0.25/0.375 | Existe variación, llegando a 0.375 en varias ocasiones |
+| 10-02 | 52 |  8     | $T_1(S) + T_2(s)$ | 30 | D | 0.125 | Empezaba con 0.25, pero al poco se redujo |
+| 10-03 | 60 | 8 | $S + T_1(S) + T_2(s)$ | 45 | D | 0.25/0.375 | Existe variación, llegando a 0.375 en varias ocasiones |
 | 10-04 | 51 | 8 | $S$ | 15 | D | 0.125 | |
 | 10-05 | 51 | 8 | $T_1(S)$ | 15 | D | 0.125 | |
 | 10-06 | 33 | 8 | $S + DF(S_{1,2})$ | 26 | D | 0.125 | |
@@ -45,6 +45,8 @@ $$T_2 = ("aff", "bsalt", "mblur", "dsample-0.2")$$
 | 10-08 | 32 | 8 | $S + T_1(DF(S_{1,2}))$ | 26 | D | 0.125 | Nótese que no se considera $T_1(S \setminus S_{1,2})$ |
 | 10-09-01 | 22 | 8 | $S + T_1(S) + DF(S_{1,2})$ | 42 | D | 0.125 | Llega a 0.25 y 0.375 al principio |
 | 10-09-02 | 25 | 8 | $S + T_1(S) + T_1(DF(S_{1,2}))$ | 42 | D | 0.375 | LLega a 0.25 en 162 pasos, y en 266 a la marca|
+| 10-09-01 | 100 | 8 | $S + T_1(S) + DF(S_{1,2})$ | 42 | D | 0.375 | 0.25 subiendo en 252 pasos, llegando a 0.375 máas adelante |
+| 10-09-02 | 100 | 8 | $S + T_1(S) + T_1(DF(S_{1,2}))$ | 42 | D | 0.375 | A partir del paso 360 empieza a bajar y luego se estabiliza en 0.125 |
 
 > **Nota**: En cada paso se actualizan los pesos y se trabaja con un lote del conjunto de entrenamiento.
 
