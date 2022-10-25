@@ -37,8 +37,8 @@ Para poder poner a prueba nuestra hipótesis —la utilidad de la expansión de 
 
 Usamos $S$ para denotar al conjunto de los 10 vídeos originales con los que trabajamos —$S_{I}$ representará a los signantes identificados por $I$ de $S$—, $T_1$ y $T_2$ para las transformaciones, $DF$ para los *DeepFakes*, y D para el conjunto test, formado por 8 vídeos del diccionario Dilse:
 
-$$T_1 = ("aff", "apepper", "blur", "usample-0.1")$$
-$$T_2 = ("aff", "bsalt", "mblur", "dsample-0.2")$$
+$$T_1 = ('aff', 'apepper', 'blur', 'usample-0.1')$$
+$$T_2 = ('aff', 'bsalt', 'mblur', 'dsample-0.2')$$
 
 | ID | Épocas | Clases | Entrenamiento | #Entrenamiento | Test | Precisión | Notas |
 |:-:|:-:|:------:|:-------------:|:----:|:----:|:---------:|:-----:|
@@ -50,8 +50,8 @@ $$T_2 = ("aff", "bsalt", "mblur", "dsample-0.2")$$
 | 10-07 | ?? | 8 | $S + T_1(S)$ | 32 | D | 0.25 | Mejoras claras desde el principio |
 | 10-08 | 32 | 8 | $S + T_1(DF(S_{1,2}))$ | 26 | D | 0.125 | Nótese que no se considera $T_1(S \setminus S_{1,2})$ |
 | 10-09-01 | 22 | 8 | $S + T_1(S) + DF(S_{1,2})$ | 42 | D | 0.125 | Llega a 0.25 y 0.375 al principio |
+| 10-09-01 | 100 | 8 | $S + T_1(S) + DF(S_{1,2})$ | 42 | D | 0.375 | 0.25 subiendo en 252 pasos, llegando a 0.375 más adelante |
 | 10-09-02 | 25 | 8 | $S + T_1(S) + T_1(DF(S_{1,2}))$ | 42 | D | 0.375 | LLega a 0.25 en 162 pasos, y en 266 a la marca|
-| 10-09-01 | 100 | 8 | $S + T_1(S) + DF(S_{1,2})$ | 42 | D | 0.375 | 0.25 subiendo en 252 pasos, llegando a 0.375 máas adelante |
 | 10-09-02 | 100 | 8 | $S + T_1(S) + T_1(DF(S_{1,2}))$ | 42 | D | 0.375 | A partir del paso 360 empieza a bajar y luego se estabiliza en 0.125 |
 
 > **Nota**: En cada paso se actualizan los pesos y se trabaja con un lote del conjunto de entrenamiento.
