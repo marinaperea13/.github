@@ -32,7 +32,19 @@ Tras el procesamiento:
 
 ## Resultados obtenidos
 
+### SACU-100
+ 
+ Pincha [aquí](img/under_development.jpeg) para acceder a este conjunto de datos.
+ 
+> **TODO**:
+  - Explicar la metodología empleada.
+  - Comentar algunas estadísticas sobre el conjunto de datos.
+  - Un par de gifs con ejemplos de contenido.
+  
+
 ### SACU-I3D-10
+
+Pincha [aquí](img/under_development.jpeg) para acceder a este conjunto de datos.
 
 Este conjunto se ha creado con **8 clases** tomadas de las palabras del SACU, a saber: alcazar, desierto, blog, apagar, error, fe, cementerio, obispo. Las palabras han sido escogidas al ser comunes y poder encontrarse en otros diccionarios. De hecho, para poder trabajar con un conjunto de datos un poco más complejo, hemos añadido 7 vídeos adicionales del diccionario Spread the Sign, y 8 del Dilse, con la idea de poder usar un conjunto test novedoso.
 
