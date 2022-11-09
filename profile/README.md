@@ -16,11 +16,11 @@ Referencias:
 * [*Data augmentation*](https://tal-ia.github.io/data_augmentation/)
 * [*DeepFakes*](https://tal-ia.github.io/deepfakes/)
 
-## El conjunto de datos SACU
+## El conjunto de datos de la Universidad de Sevilla
 
 TODO: Origen, obtención, procesamiento con MediaPipe.
 
-* [Glosario en Lengua de Signos Española](https://sacu.us.es/ne-prestaciones-discapacidad-glosario).
+* [Glosario en Lengua de Signos Española].
 
 Originales:
 <p align='center'><img src='gif/sinprocesar_Algebra.gif' width='80%'><br><sup>Vídeo original para la palabra "Álgebra".</sup><br></p>
