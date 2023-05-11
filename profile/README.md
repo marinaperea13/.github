@@ -81,4 +81,5 @@ $$T_2 = ('aff', 'bsalt', 'mblur', 'dsample-0.2')$$
 
 - Traducción del Lenguaje de Signos (SLT).
 
-
+## Agradecimientos
+La investigación relacionada a este proyecto contó con el apoyo de subvenciones de NVIDIA y utilizó NVIDIA-A100 donada por nuestro compañero Miguel A. Martínez-del-Amor.
